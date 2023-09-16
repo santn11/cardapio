@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+        }
+
+        .mc {
+            position: absolute;
+            top: 2%;
+            right: 3%;
+        }
+
+        h1 {
+            color: yellow;
+            -webkit-text-stroke-width: 1px; /* largura da borda */
+            -webkit-text-stroke-color: black; /* cor da borda */
+        }
+        
+        fieldset {
+            border: none;
+            background-image: linear-gradient(to right, transparent 10%, yellow);
+            width: 90%;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            padding: 3rem 0;
+        }
+
+        legend {
+            font-weight: bolder;
+            font-size: 2rem;
+            margin-left: 10%;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 2px solid yellow;
+            padding: 1.5rem;
+        }
+
+        label {
+            width: 20%;
+            text-align: start;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="img/mc.png" alt="MCD" class="mc" width="5%">
+    <h1>McDonalds</h1>
+    
+        <fieldset>
+            <legend>LANCHES</legend>
+                <div>
+                    <label>Cheddar McMelt</label> R$33.00
+                    <img src="img/mcmelt" width="10%">
+                </div>
+                <div>
+                    <label>McLanche Feliz</label> R$25.00
+                    <img src="img/mclf"  width="10%">
+                </div>
+                <div>
+                    <label>BigMC</label> R$35.00
+                    <img src="img/bigMc"  width="10%">
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>PORÇÕES</legend>
+                <div>
+                    <label>Batata-frita</label> R$15.00 <p>300g</p>
+                    <img src="img/fritas" width="10%">
+                </div>
+                <div>
+                    <label>Nuggets</label> R$10.00 <p>4unid</p>
+                    <img src="img/nug.webp" width="10%">
+                </div>
+                <div>
+                    <label>Salada</label> R$13.00 <p>200g</p>
+                    <img src="img/salad.png" width="10%">
+                </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>BEBIDAS</legend>
+                <div>
+                    <label>Coca-Cola</label> R$08.00 <p>Lata</p>
+                    <img src="img/coca.png" width="10%">
+                </div>
+                <div>
+                    <label>Pepsi</label> R$08.00 <p>Lata</p>
+                    <img src="img/pepsi.png" width="10%">
+                </div>
+                <div>
+                    <label>Fanta Laranja</label> R$08.00 <p>Lata</p>
+                    <img src="img/fl.png" width="10%">
+                </div>
+        </fieldset>
+
+
+
+
+
+</body>
+</html>
